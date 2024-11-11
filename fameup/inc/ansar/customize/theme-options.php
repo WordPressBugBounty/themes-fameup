@@ -580,13 +580,13 @@ $wp_customize->add_control(new Fameup_Toggle_Control( $wp_customize, 'fameup_hea
         'section' => 'header_options',
     )
 ));
-    
 
 $wp_customize->add_setting(
     'top_bar_header_background_color',
     array(
         'default'           => '',
         'sanitize_callback' => 'sanitize_hex_color',
+        'transport' => 'postMessage',
     )
 );
 $wp_customize->add_control(
@@ -605,6 +605,7 @@ $wp_customize->add_setting(
     array(
         'default'           => '',
         'sanitize_callback' => 'sanitize_hex_color',
+        'transport' => 'postMessage',
     )
 );
 $wp_customize->add_control(
@@ -902,6 +903,7 @@ $wp_customize->add_setting(
     array(
         'default'           => '',
         'sanitize_callback' => 'sanitize_hex_color',
+        'transport' => 'postMessage',
     )
 );
 $wp_customize->add_control(
@@ -921,6 +923,7 @@ $wp_customize->add_setting(
     array(
         'default'           => '',
         'sanitize_callback' => 'sanitize_hex_color',
+        'transport' => 'postMessage',
     )
 );
 $wp_customize->add_control(

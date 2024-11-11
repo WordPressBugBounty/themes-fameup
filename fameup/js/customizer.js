@@ -136,4 +136,8 @@
 	}
 	customizePreviewStyle('fameup_footer_overlay_color', 'footer .overlay', 'background');
 	customizePreviewStyle('fameup_footer_text_color', 'footer .bs-widget p, .site-title-footer a, .site-title-footer a:hover, .site-description-footer, .site-description-footer:hover, footer .bs-widget h6, footer bs_contact_widget .bs-widget h6, footer .bs-widget ul li a', 'color');
+	customizePreviewStyle('top_bar_header_background_color', '.bs-head-detail', 'background');
+	customizePreviewStyle('top_bar_header_color', '.bs-head-detail .top-date, .bs-head-detail', 'color');
+	customizePreviewStyle('breaking_news_background_color', '.bs-latest-news .bs-latest-news-slider', 'background');
+	customizePreviewStyle('breaking_news_color', '.bs-latest-news .bs-latest-news-slider a', 'color');
 } )( jQuery );
