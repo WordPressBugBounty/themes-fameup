@@ -107,8 +107,14 @@ endif;
 if ( ! function_exists( 'fameup_post_comment' ) ) :
     function fameup_post_comment() { ?>
         <span class="comments-link"> 
-            <a href="<?php the_permalink(); ?>"><?php echo get_comments_number(); ?>
-                <?php esc_html_e( get_comments_number() <= 1 ? __('Comment', 'fameup') : __('Comments', 'fameup')); ?>
+            <a href="<?php the_permalink(); ?>">
+                <?php
+                if ( get_comments_number() == 0 ) {
+                    esc_html_e(  __('No Comments', 'fameup') );
+                } else {
+                    echo get_comments_number() . ' ';
+                    esc_html_e( get_comments_number() == 1 ? __('Comment', 'fameup') : __('Comments', 'fameup') );
+                } ?>
             </a> 
         </span>
     <?php }
