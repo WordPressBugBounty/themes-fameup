@@ -2,10 +2,10 @@
 Contributors: Themeansar
 Author: Themeansar
 Requires at least: WordPress 5.4
-Tested up to: WordPress 6.6
+Tested up to: WordPress 6.7
 Requires PHP: 7.4
-Stable tag: 1.0.0.39
-Version: 1.0.0.39
+Stable tag: 1.0.0.40
+Version: 1.0.0.40
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets,  theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, news
@@ -390,3 +390,6 @@ Source: https://pxhere.com/en/photo/1336736
 
 = Version 1.0.0.39
 * Fixed Comments label Issue.
+
+= Version 1.0.0.40
+* Fixed RTL Styling Issue.
