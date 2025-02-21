@@ -14,10 +14,8 @@
 get_header(); 
 get_template_part('index','banner'); ?>
 
-<main id="content">
-    <div class="container">
-      <div class="row">
-      <div class="col-md-12 mg-card-box padding-20">
+<div class="col-md-12">
+			<div class="bs-card-box padding-20">
             <?php while ( have_posts() ) : the_post(); 
 
 				the_content();
@@ -31,7 +29,5 @@ get_template_part('index','banner'); ?>
           
       </div>
     </div>
-  </div>
-</main>
 <?php
 get_footer();

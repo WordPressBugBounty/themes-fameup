@@ -4,8 +4,8 @@ Author: Themeansar
 Requires at least: WordPress 5.4
 Tested up to: WordPress 6.7
 Requires PHP: 7.4
-Stable tag: 1.0.0.41
-Version: 1.0.0.41
+Stable tag: 1.0.0.42
+Version: 1.0.0.42
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets,  theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, news
@@ -396,3 +396,6 @@ Source: https://pxhere.com/en/photo/1336736
 
 = Version 1.0.0.41
 * Added Default Widget in Menu Sidebar Widget Area.
+
+= Version 1.0.0.42
+* Fixed Full Width Page Issue.

@@ -16,7 +16,8 @@ get_header();
 <!--==================== main content section ====================-->
 	<!-- Blog Area -->
 	<?php if( class_exists('woocommerce') && (is_account_page() || is_cart() || is_checkout())) { ?>
-		<div class="col-md-12 bs-card-box padding-20">
+		<div class="col-md-12">
+			<div class="bs-card-box padding-20">
 			<?php if (have_posts()) {  while (have_posts()) : the_post(); the_content(); endwhile; } 
 	} else {  $fameup_page_layout = get_theme_mod('fameup_page_layout','page-align-content-right');
 
